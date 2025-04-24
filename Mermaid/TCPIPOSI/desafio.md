@@ -1,7 +1,7 @@
 
 ```mermaid
 flowchart TD
-  A[MODELO OSI] --> OSI7[Camada 7: Aplicação]
+  A(MODELO OSI) --> OSI7[Camada 7: Aplicação]
   OSI7 --> OSI6[Camada 6: Apresentação]
   OSI6 --> OSI5[Camada 5: Sessão]
   OSI5 --> OSI4[Camada 4: Transporte]
@@ -11,7 +11,7 @@ flowchart TD
 ```
 ```mermaid
 flowchart TD
-  A[MODELO TCP/IP] --> TCP5[Camada 5: Aplicação]
+  A(MODELO TCP/IP) --> TCP5[Camada 5: Aplicação]
   TCP5 --> TCP4[Camada 4: Transporte]
   TCP4 --> TCP3[Camada 3: Acesso à rede]
   TCP3 --> TCP2[Camada 2: Interface de rede]
